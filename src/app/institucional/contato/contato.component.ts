@@ -2,11 +2,10 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-menu',
+  selector: 'app-contato',
   standalone: true,
-  imports: [RouterModule],
-  templateUrl: './menu.component.html'
+  templateUrl: './contato.component.html'
 })
-export class MenuComponent {
+export class ContatoComponent {
 
 }
